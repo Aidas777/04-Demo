@@ -2,10 +2,74 @@
 
 <html>
     <head>
+
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, inintial-scale=1.0'>
+        <meta name='author' content='UAB Musu grupe'>
+
         <title>Pagrindinis</title>
+        <style>
+
+            .clearfix {
+                overflow:auto;
+            }
+
+            #main-heading
+            {
+                color: grey;
+            }
+
+            #u-paragr {
+                color: red;
+            }
+
+            .row {
+                background-color: aquamarine;
+                color:grey;
+                
+                width: 100%;
+            }
+
+            .col {
+                float:left;
+                width: 50%;
+            }
+
+            .pirma {
+                background-color: blue;
+            }
+            .antra {
+                background-color: chartreuse;
+            }
+
+        </style>
     </head>
 
     <body>
+
+        <h1 id='main-heading'>Minimali struktura</h1>
+
+        <p id='u-paragr'>Unikalus paragr</p>
+
+        <!--EILUTE SU STULPELIAIS -->
+        <div class='row clearfix'>
+            <div class='col pirma'>
+                <p>Stulpelis</p><br>
+                <p>Stulpelis</p><br>
+                <p>Stulpelis</p><br>
+                <p>Stulpelis</p><br>
+                <p>Stulpelis</p>
+            </div>
+            <div class='col antra'>
+                <p>Stulpelis</p>
+            </div>
+         </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
         <h1>This is a Heading</h1>
         <h2>This is a Heading</h2>
